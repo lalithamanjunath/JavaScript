@@ -38,3 +38,30 @@ console.log(typeof myFunction); // function
 console.log(typeof userEmail); // undefined
 console.log(typeof anotherId); // symbol
 
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Types of memory allocation in JS
+
+// Stack Memory - Primitive Data Types are stored in stack memory
+// Heap Memory - Reference Data Types are stored in heap memory
+
+let myYouTubename = "Lalitha Tutorials"
+let anothername = "chaiaurcode"
+
+console.log(myYouTubename); // Lalitha Tutorials
+console.log(anothername); // chaiaurcode
+
+let user = {
+    email: "user@google.com"
+    upi: "user@upi"
+}
+
+let user2 = user
+
+user2.email = "lalitha@google.com"
+
+console.log(user.email); 
+console.log(user2.email);
+// Both will print same email "lalitha@google.com
+
