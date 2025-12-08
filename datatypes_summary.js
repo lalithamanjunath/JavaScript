@@ -63,5 +63,5 @@ user2.email = "lalitha@google.com"
 
 console.log(user.email); 
 console.log(user2.email);
-// Both will print same email "lalitha@google.com
+// Both will print same email "lalitha@google.com"
 
