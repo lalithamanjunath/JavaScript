@@ -44,3 +44,21 @@ console.log(Object.values(tinderUser)); // get all values
 console.log(Object.entries(tinderUser)); // get key-value pairs
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); // check if property exists
+
+const course ={
+    courseName: "JavaScript",
+    price: 999,
+    courseInstructor: "Jeevith"
+}
+
+// course.courseInstructor 
+
+const {courseInstructor} = course; // destructuring
+console.log(courseInstructor);
+
+// {
+//     "name" : "Jeevith",
+//     "coursename" : "JavaScript",
+//     "price ": "free",
+// }
+
